@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="ZH"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="icon" href="favicon.ico"><title>自助首页管理系统</title><style>/*
+ * CSS样式表重置初始化样式，PC端
+ */   html,body,#app{
+        width: 100%;
+        height: 100%;
+      }
+      body,p,div,ul,li,form,input,td,tr,th,div{
+        margin: 0;
+        padding: 0;
+      }
+      body{
+        position: relative;
+      }
+      ul,li{
+        list-style: none;
+      }
+      img{
+        border: none;
+        /* vertical-align: top; */
+        display: block;
+      }
+      a{
+        text-decoration: none;
+        color: #002be5;
+      }
+      a:hover{
+        text-decoration: none;
+      }
+      a img{
+        border: 0;
+      }
+      em{
+        color: #e50000;
+        font-style: normal;
+      }
+      button{
+        cursor: pointer; /*鼠标光标的类型*/
+      }
+      input,textarea{
+        outline: none;
+        appearance: none;
+      }
+      textarea{
+        resize: none;
+        overflow: auto;
+      }
+      table{
+        border-collapse: collapse;
+      }
+      em{
+        font-style: normal;
+      }</style><link href="css/chunk-01b3b990.17a996ae.css" rel="prefetch"><link href="css/chunk-0cb1adfa.f1e40cad.css" rel="prefetch"><link href="css/chunk-1a50cf40.9b2a7d2e.css" rel="prefetch"><link href="css/chunk-2d0ec294.d52941d8.css" rel="prefetch"><link href="css/chunk-2fab4c01.28537899.css" rel="prefetch"><link href="css/chunk-317adc2c.233cdb13.css" rel="prefetch"><link href="css/chunk-33581998.be22e43f.css" rel="prefetch"><link href="css/chunk-3c4dd4ef.606be04f.css" rel="prefetch"><link href="css/chunk-3edaf290.9badcb11.css" rel="prefetch"><link href="css/chunk-5572c24e.1323201f.css" rel="prefetch"><link href="css/chunk-5d2287f4.a2b0e997.css" rel="prefetch"><link href="css/chunk-659789b2.37bd9883.css" rel="prefetch"><link href="css/chunk-67aa856c.c9af5e78.css" rel="prefetch"><link href="css/chunk-72a9e9a5.9273c38c.css" rel="prefetch"><link href="css/chunk-7754b786.7fae8ade.css" rel="prefetch"><link href="css/chunk-aa274310.7def89a6.css" rel="prefetch"><link href="css/chunk-ba28ed16.b9c928cf.css" rel="prefetch"><link href="css/chunk-f4ea4d52.1719e41a.css" rel="prefetch"><link href="js/chunk-01b3b990.ab6dd28f.js" rel="prefetch"><link href="js/chunk-0cb1adfa.761c6f3c.js" rel="prefetch"><link href="js/chunk-0f93202e.0876dbee.js" rel="prefetch"><link href="js/chunk-1a50cf40.db51fc24.js" rel="prefetch"><link href="js/chunk-2d0a510c.cb84628d.js" rel="prefetch"><link href="js/chunk-2d0ab64d.4f121f40.js" rel="prefetch"><link href="js/chunk-2d0aeeb8.a03bc647.js" rel="prefetch"><link href="js/chunk-2d0c1766.3bb322f5.js" rel="prefetch"><link href="js/chunk-2d0c18df.c5024c8b.js" rel="prefetch"><link href="js/chunk-2d0c4635.0e865f61.js" rel="prefetch"><link href="js/chunk-2d0c8fd7.c7076c2a.js" rel="prefetch"><link href="js/chunk-2d0cbec0.eb016bea.js" rel="prefetch"><link href="js/chunk-2d0cc7c6.87ea26e0.js" rel="prefetch"><link href="js/chunk-2d0ceda2.c24ad5af.js" rel="prefetch"><link href="js/chunk-2d0d0407.f2d42ac8.js" rel="prefetch"><link href="js/chunk-2d0d7e28.9da07f33.js" rel="prefetch"><link href="js/chunk-2d0de2f5.7a423cb3.js" rel="prefetch"><link href="js/chunk-2d0e22e7.e7cf6f07.js" rel="prefetch"><link href="js/chunk-2d0ec294.5023324e.js" rel="prefetch"><link href="js/chunk-2d2080b8.d4278727.js" rel="prefetch"><link href="js/chunk-2d20ed79.f59a8e16.js" rel="prefetch"><link href="js/chunk-2d20f414.09f9788c.js" rel="prefetch"><link href="js/chunk-2d21839e.817c56cb.js" rel="prefetch"><link href="js/chunk-2d21e376.897185de.js" rel="prefetch"><link href="js/chunk-2d222023.1f3052a4.js" rel="prefetch"><link href="js/chunk-2fab4c01.d8ee9dcf.js" rel="prefetch"><link href="js/chunk-317adc2c.92913d7b.js" rel="prefetch"><link href="js/chunk-33581998.dcd73e95.js" rel="prefetch"><link href="js/chunk-3c4dd4ef.d4b0b844.js" rel="prefetch"><link href="js/chunk-3edaf290.8a6d3524.js" rel="prefetch"><link href="js/chunk-5572c24e.c85f17c0.js" rel="prefetch"><link href="js/chunk-5d2287f4.207c5e16.js" rel="prefetch"><link href="js/chunk-659789b2.7e003c24.js" rel="prefetch"><link href="js/chunk-67aa856c.40609821.js" rel="prefetch"><link href="js/chunk-6c2f0cd0.9e823ec0.js" rel="prefetch"><link href="js/chunk-72a9e9a5.648b3829.js" rel="prefetch"><link href="js/chunk-7754b786.54885044.js" rel="prefetch"><link href="js/chunk-aa274310.7c9a4d98.js" rel="prefetch"><link href="js/chunk-ba28ed16.d3743540.js" rel="prefetch"><link href="js/chunk-f4ea4d52.8f8abd0b.js" rel="prefetch"><link href="css/app.7f368327.css" rel="preload" as="style"><link href="css/chunk-vendors.4cfc9201.css" rel="preload" as="style"><link href="js/app.a09004b3.js" rel="preload" as="script"><link href="js/chunk-vendors.be557c1b.js" rel="preload" as="script"><link href="css/chunk-vendors.4cfc9201.css" rel="stylesheet"><link href="css/app.7f368327.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but vue2-admin doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="js/chunk-vendors.be557c1b.js"></script><script src="js/app.a09004b3.js"></script></body></html>
